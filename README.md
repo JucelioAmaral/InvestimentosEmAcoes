@@ -15,7 +15,7 @@ Front-End utilizando Angular 13.2.4
 
 ## Como baixar o código
 
-git clone https://gitlab.com/JucelioAmaral/testetr.git
+git clone https://github.com/JucelioAmaral/InvestimentosEmAcoes.git
 
 OBS: Projeto também pode ser encontrado no endereço: https://gitlab.com/JucelioAmaral/testetr/-/tree/master
 
