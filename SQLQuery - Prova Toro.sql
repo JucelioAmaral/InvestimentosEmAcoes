@@ -1,0 +1,20 @@
+SELECT *
+FROM tblOrder
+WHERE CONVERT(date,DateOrder) <= '2022-03-23'
+
+
+SELECT TOP 5 *
+FROM tblOrder
+WHERE CONVERT(date,DateOrder) <= '2022-03-23'
+ORDER BY Amount DESC
+
+
+SELECT *
+FROM tblOrder
+WHERE DateOrder BETWEEN CONVERT(datetime,'2022-03-23') AND CONVERT(datetime,GETDATE())
+
+
+SELECT TOP 5*
+FROM tblOrder
+WHERE DateOrder BETWEEN CONVERT(datetime,GETDATE()-7) AND CONVERT(datetime,GETDATE())
+ORDER BY Amount DESC
